@@ -3,6 +3,7 @@
 class Professor
 {
 public:
+  Professor() {};
   Professor(int id, vector<Subject> &subs) {};
   void setID(int id) {};
   int getID() {};

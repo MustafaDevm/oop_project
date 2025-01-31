@@ -4,6 +4,7 @@
 class Student
 {
 public:
+Student() {}
   Student(int age, double GPA, vector<Subject> &subs) {}
   int getID() {}
   void setID(double id) {}

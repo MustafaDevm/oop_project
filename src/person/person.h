@@ -3,6 +3,7 @@
 class Person
 {
 public:
+    Person(){};
     Person(std::string Name, int age);
     std::string getName();
     int getAge();

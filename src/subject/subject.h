@@ -3,6 +3,7 @@
 class Subject
 {
 public:
+ Subject();
   Subject(int code, string name);
   int getCode() {};
   string getName() {};
