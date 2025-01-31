@@ -1,6 +1,7 @@
 #include "../depend/dep.cpp"
 
-class Subject {
+class Subject
+{
 public:
   Subject(int code, string name);
   int getCode() {};
@@ -12,4 +13,3 @@ private:
   int code;
   string name;
 };
-
